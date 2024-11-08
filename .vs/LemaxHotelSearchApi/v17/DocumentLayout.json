@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{204AC74B-EB84-410B-A5B4-BBF4BE3AF7A5}|LemaxHotelSearchApi\\LemaxHotelSearchApi.csproj|c:\\users\\matij\\source\\repos\\lemaxhotelsearchapi\\lemaxhotelsearchapi\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204AC74B-EB84-410B-A5B4-BBF4BE3AF7A5}|LemaxHotelSearchApi\\LemaxHotelSearchApi.csproj|solutionrelative:lemaxhotelsearchapi\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204AC74B-EB84-410B-A5B4-BBF4BE3AF7A5}|LemaxHotelSearchApi\\LemaxHotelSearchApi.csproj|c:\\users\\matij\\source\\repos\\lemaxhotelsearchapi\\lemaxhotelsearchapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204AC74B-EB84-410B-A5B4-BBF4BE3AF7A5}|LemaxHotelSearchApi\\LemaxHotelSearchApi.csproj|solutionrelative:lemaxhotelsearchapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204AC74B-EB84-410B-A5B4-BBF4BE3AF7A5}|LemaxHotelSearchApi\\LemaxHotelSearchApi.csproj|c:\\users\\matij\\source\\repos\\lemaxhotelsearchapi\\lemaxhotelsearchapi\\services\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204AC74B-EB84-410B-A5B4-BBF4BE3AF7A5}|LemaxHotelSearchApi\\LemaxHotelSearchApi.csproj|solutionrelative:lemaxhotelsearchapi\\services\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204AC74B-EB84-410B-A5B4-BBF4BE3AF7A5}|LemaxHotelSearchApi\\LemaxHotelSearchApi.csproj|c:\\users\\matij\\source\\repos\\lemaxhotelsearchapi\\lemaxhotelsearchapi\\models\\geolocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204AC74B-EB84-410B-A5B4-BBF4BE3AF7A5}|LemaxHotelSearchApi\\LemaxHotelSearchApi.csproj|solutionrelative:lemaxhotelsearchapi\\models\\geolocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204AC74B-EB84-410B-A5B4-BBF4BE3AF7A5}|LemaxHotelSearchApi\\LemaxHotelSearchApi.csproj|c:\\users\\matij\\source\\repos\\lemaxhotelsearchapi\\lemaxhotelsearchapi\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204AC74B-EB84-410B-A5B4-BBF4BE3AF7A5}|LemaxHotelSearchApi\\LemaxHotelSearchApi.csproj|solutionrelative:lemaxhotelsearchapi\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\LemaxHotelSearchApi\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "LemaxHotelSearchApi\\Controllers\\SearchController.cs",
+              "ToolTip": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\LemaxHotelSearchApi\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "LemaxHotelSearchApi\\Controllers\\SearchController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:33:56.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\LemaxHotelSearchApi\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "LemaxHotelSearchApi\\Controllers\\HotelController.cs",
+              "ToolTip": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\LemaxHotelSearchApi\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "LemaxHotelSearchApi\\Controllers\\HotelController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAA0wE4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:36:48.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HotelService.cs",
+              "DocumentMoniker": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\LemaxHotelSearchApi\\Services\\HotelService.cs",
+              "RelativeDocumentMoniker": "LemaxHotelSearchApi\\Services\\HotelService.cs",
+              "ToolTip": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\LemaxHotelSearchApi\\Services\\HotelService.cs",
+              "RelativeToolTip": "LemaxHotelSearchApi\\Services\\HotelService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwDAAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:37:34.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeoLocation.cs",
+              "DocumentMoniker": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\LemaxHotelSearchApi\\Models\\GeoLocation.cs",
+              "RelativeDocumentMoniker": "LemaxHotelSearchApi\\Models\\GeoLocation.cs",
+              "ToolTip": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\LemaxHotelSearchApi\\Models\\GeoLocation.cs",
+              "RelativeToolTip": "LemaxHotelSearchApi\\Models\\GeoLocation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:29:15.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\LemaxHotelSearchApi\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "LemaxHotelSearchApi\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\matij\\source\\repos\\LemaxHotelSearchApi\\LemaxHotelSearchApi\\Models\\Hotel.cs",
+              "RelativeToolTip": "LemaxHotelSearchApi\\Models\\Hotel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:28:30.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ux3IXJMPdJw9sr2ebNMEBJ49n3GXdlMSYSeZ1cS8skQ=",
+  "Source": "LemaxHotelSearchApi",
+  "BasePath": "_content/LemaxHotelSearchApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
