@@ -30,3 +30,14 @@ C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\obj\Debug\ne
 C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\obj\Debug\net6.0\LemaxHotelSearchApi.pdb
 C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\obj\Debug\net6.0\LemaxHotelSearchApi.genruntimeconfig.cache
 C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\obj\Debug\net6.0\ref\LemaxHotelSearchApi.dll
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\obj\Debug\net6.0\LemaxHotelSearchApi.sourcelink.json
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\matij\source\repos\LemaxHotelSearchApi\LemaxHotelSearchApi\bin\Debug\net6.0\Mock\mockHotels.json

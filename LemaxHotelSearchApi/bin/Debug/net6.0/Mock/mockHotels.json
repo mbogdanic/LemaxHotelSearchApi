@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "Name": "Sheraton",
+    "Price": 250.00,
+    "Location": {
+      "Latitude": 34.0522,
+      "Longitude": -118.2437
+    }
+  },
+  {
+    "Id": 2,
+    "Name": "Esplanade",
+    "Price": 180.00,
+    "Location": {
+      "Latitude": 39.7392,
+      "Longitude": -104.9903
+    }
+  },
+  {
+    "Id": 3,
+    "Name": "Hilton",
+    "Price": 320.00,
+    "Location": {
+      "Latitude": 36.7783,
+      "Longitude": -119.4179
+    }
+  }
+]

@@ -9,13 +9,20 @@ namespace LemaxHotelSearchApi.Controllers
     [ApiController]
     public class SearchController : ControllerBase
     {
-        private readonly HotelService _hotelService;
+        private readonly IHotelService _hotelService;
 
-        public SearchController(HotelService hotelService)
+        public SearchController(IHotelService hotelService)
         {
             _hotelService = hotelService;
         }
 
+        /// <summary>
+        /// Searches for hotels near a specified geographical location and supports pagination.
+        /// </summary>
+        /// <param name="latitude">The latitude of the user's location (should be between -90 and 90).</param>
+        /// <param name="longitude">The longitude of the user's location (should be between -180 and 180).</param>
+        /// <param name="page">The page number for pagination (defaults to 1).</param>
+        /// <param name="pageSize">The number of hotels per page (defaults to 10).</param>
         [HttpGet]
         public ActionResult<List<Hotel>> Search([FromQuery] double latitude, [FromQuery] double longitude, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
