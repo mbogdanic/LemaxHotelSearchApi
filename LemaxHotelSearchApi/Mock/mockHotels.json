@@ -25,5 +25,95 @@
       "Latitude": 36.7783,
       "Longitude": -119.4179
     }
+  },
+  {
+    "Id": 4,
+    "Name": "Hotel Esplanade Zagreb",
+    "Price": 220.00,
+    "Location": {
+      "Latitude": 45.8069,
+      "Longitude": 15.9785
+    }
+  },
+  {
+    "Id": 5,
+    "Name": "Sheraton Zagreb Hotel",
+    "Price": 210.00,
+    "Location": {
+      "Latitude": 45.8103,
+      "Longitude": 15.9780
+    }
+  },
+  {
+    "Id": 6,
+    "Name": "Hotel Dubrovnik",
+    "Price": 160.00,
+    "Location": {
+      "Latitude": 45.8131,
+      "Longitude": 15.9786
+    }
+  },
+  {
+    "Id": 7,
+    "Name": "Canopy by Hilton Zagreb",
+    "Price": 195.00,
+    "Location": {
+      "Latitude": 45.8097,
+      "Longitude": 15.9894
+    }
+  },
+  {
+    "Id": 8,
+    "Name": "The Westin Zagreb",
+    "Price": 235.00,
+    "Location": {
+      "Latitude": 45.8058,
+      "Longitude": 15.9643
+    }
+  },
+  {
+    "Id": 9,
+    "Name": "Hotel Jägerhorn",
+    "Price": 140.00,
+    "Location": {
+      "Latitude": 45.8136,
+      "Longitude": 15.9756
+    }
+  },
+  {
+    "Id": 10,
+    "Name": "DoubleTree by Hilton Zagreb",
+    "Price": 200.00,
+    "Location": {
+      "Latitude": 45.8024,
+      "Longitude": 15.9956
+    }
+  },
+  {
+    "Id": 11,
+    "Name": "Hotel Academia",
+    "Price": 170.00,
+    "Location": {
+      "Latitude": 45.8172,
+      "Longitude": 15.9765
+    }
+  },
+  {
+    "Id": 12,
+    "Name": "Hotel President Pantovcak",
+    "Price": 250.00,
+    "Location": {
+      "Latitude": 45.8133,
+      "Longitude": 15.9502
+    }
+  },
+  {
+    "Id": 13,
+    "Name": "Best Western Premier Hotel Astoria",
+    "Price": 180.00,
+    "Location": {
+      "Latitude": 45.8059,
+      "Longitude": 15.9805
+    }
   }
 ]

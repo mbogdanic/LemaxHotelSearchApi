@@ -6,7 +6,6 @@ namespace LemaxHotelSearchApi.Services
     public class HotelService : IHotelService
     {
         private readonly List<Hotel> _hotels = new();
-        private int _nextId = 1;
         private readonly string _filePath;
 
         public HotelService()
@@ -17,29 +16,17 @@ namespace LemaxHotelSearchApi.Services
                 throw new FileNotFoundException("The mockHotels.json file could not be found.");
             }
 
-            string json = File.ReadAllText(_filePath);
-            List<Hotel> hotels = JsonSerializer.Deserialize<List<Hotel>>(json);
-
-            if (hotels != null)
-            {
-                hotels.ForEach(x => _hotels.Add(x));
-            }
-            else
-            {
-                throw new ArgumentNullException(nameof(hotels), "Hotel data is empty.");
-            }
+            _hotels = GetHotelsFromMock();
         }
 
         public List<Hotel> GetAllHotels()
         {
-            
-
             return _hotels;
         }
 
         public Hotel GetHotelById(int id)
         {
-             return _hotels.FirstOrDefault(h => h.Id == id);
+              return _hotels.FirstOrDefault(h => h.Id == id) ?? throw new KeyNotFoundException($"Hotel with ID {id} does not exist.");
         }
 
         public void AddHotel(Hotel hotel)
@@ -49,8 +36,10 @@ namespace LemaxHotelSearchApi.Services
                 throw new ArgumentNullException(nameof(hotel), "Hotel data is empty.");
             }
 
-            hotel.Id = _nextId++;
-             _hotels.Add(hotel);
+            int nextId = _hotels.Any() ? _hotels.Max(x => x.Id) + 1 : 0;
+            hotel.Id = nextId;
+            _hotels.Add(hotel);
+            SaveHotelsToFile();
         }
 
         public void UpdateHotel(int id, Hotel updatedHotel)
@@ -64,6 +53,7 @@ namespace LemaxHotelSearchApi.Services
             hotel.Name = updatedHotel.Name;
             hotel.Price = updatedHotel.Price;
             hotel.Location = updatedHotel.Location;
+            SaveHotelsToFile();
         }
 
         public void DeleteHotel(int id)
@@ -75,6 +65,37 @@ namespace LemaxHotelSearchApi.Services
             }
 
             _hotels.RemoveAll(h => h.Id == id);
+            SaveHotelsToFile();
+        }
+
+        public List<Hotel> GetHotelsFromMock()
+        {
+            string json = File.ReadAllText(_filePath);
+            List<Hotel> hotels = JsonSerializer.Deserialize<List<Hotel>>(json);
+
+            if (hotels != null)
+            {
+                hotels.ForEach(x => _hotels.Add(x));
+            }
+            else
+            {
+                throw new ArgumentNullException(nameof(hotels), "Hotel data is empty.");
+            }
+
+            return hotels;
+        }
+
+        private void SaveHotelsToFile()
+        {
+            try
+            {
+                string json = JsonSerializer.Serialize(_hotels, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(_filePath, json);
+            }
+            catch (Exception ex)
+            {
+                throw new IOException($"Failed to save hotels to file: {ex.Message}", ex);
+            }
         }
     }
 }

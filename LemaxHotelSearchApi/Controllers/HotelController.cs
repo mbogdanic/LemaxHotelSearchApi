@@ -60,12 +60,18 @@ namespace LemaxHotelSearchApi.Controllers
         /// <param name="hotel">The hotel to be added.</param>
         [Authorize]
         [HttpPost]
-        public ActionResult Add(Hotel hotel)
+        public ActionResult Add(HotelDTO hotelDto)
         {
             if (ModelState.IsValid == false)
             {
                 return BadRequest(ModelState);
             }
+
+            var hotel = new Hotel{
+                Name = hotelDto.Name,
+                Price = hotelDto.Price,
+                Location = hotelDto.Location
+            };
 
             _hotelService.AddHotel(hotel);
             return CreatedAtAction(nameof(Get), new { id = hotel.Id }, hotel);
@@ -79,7 +85,7 @@ namespace LemaxHotelSearchApi.Controllers
         /// <param name="updatedHotel">The updated hotel information.</param>
         [Authorize]
         [HttpPut("{id:int}")]
-        public IActionResult Update(int id, Hotel updatedHotel)
+        public IActionResult Update(int id, HotelDTO updatedHotel)
         {
             if (ModelState.IsValid == false)
             {
@@ -88,7 +94,14 @@ namespace LemaxHotelSearchApi.Controllers
 
             try
             {
-                _hotelService.UpdateHotel(id, updatedHotel);
+                var hotel = new Hotel
+                {
+                    Name = updatedHotel.Name,
+                    Price = updatedHotel.Price,
+                    Location = updatedHotel.Location
+                };
+
+                _hotelService.UpdateHotel(id, hotel);
                 return Ok();
             }
             catch (KeyNotFoundException)

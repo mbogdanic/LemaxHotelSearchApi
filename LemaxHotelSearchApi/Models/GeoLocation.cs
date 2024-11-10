@@ -10,6 +10,11 @@ namespace LemaxHotelSearchApi.Models
         [Range(-180, 180, ErrorMessage = "Longitude must be between -180 and 180.")]
         public double Longitude { get; set; }
 
+        /// <summary>
+        /// Creates a new instance of GeoLocation
+        /// </summary>
+        /// <param name="latitude">Latitude in degrees (-90 to 90)</param>
+        /// <param name="longitude">Longitude in degrees (-180 to 180)</param>
         public double DistanceTo(GeoLocation otherLocation)
         {
             if (otherLocation == null)

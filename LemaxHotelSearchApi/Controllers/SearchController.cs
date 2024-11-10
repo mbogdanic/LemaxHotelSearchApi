@@ -26,7 +26,7 @@ namespace LemaxHotelSearchApi.Controllers
         [HttpGet]
         public ActionResult<List<Hotel>> Search([FromQuery] double latitude, [FromQuery] double longitude, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
-            if (latitude < 90 || latitude > 90 || longitude < -180 || longitude > 180)
+            if (latitude < -90 || latitude > 90 || longitude < -180 || longitude > 180)
             {
                 return BadRequest("Invalid latitude or longitude values");
             }
